@@ -2,7 +2,7 @@ using System;
 
 namespace DIO.Series
 {
-  public class Series : EntidadeBase
+  public class Serie : EntidadeBase
   {
     //atributos
     Genero Genero { get; set; }
@@ -11,7 +11,7 @@ namespace DIO.Series
     int Ano { get; set; }
 
     //metodos construtores
-    public void Serie(int id, Genero genero, string titulo, string descricao, int ano)
+    public Serie(int id, Genero genero, string titulo, string descricao, int ano)
     {
       this.Id = id;
       this.Genero = genero;
